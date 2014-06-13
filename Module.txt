@@ -1,10 +1,13 @@
-﻿Name: Digic.Sitemap
+﻿Name: Sitemap
 AntiForgery: enabled
-Author: Digic
-Website: http://www.digic.co.uk/
-Version: 1.0
+Author:  Digic
+Website: http://digic.co.uk/
+Version: 0.6
 OrchardVersion: 1.8
-Description: Description for the module
+Description: Provides a configurable XML sitemap.
 Features:
     Digic.Sitemap:
-        Description: Description for feature Digic.Sitemap.
+        Description: Provides a configurable XML sitemap.
+		Name: Sitemap
+		Category: SEO
+        Dependencies: Settings, Orchard.jQuery, Orchard.Caching, Orchard.Autoroute
